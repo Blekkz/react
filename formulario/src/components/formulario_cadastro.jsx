@@ -1,7 +1,11 @@
+import { useState } from "react";
 import inputfield from "./components/inputfield";
-import botaoenviar from "./components/botaoenviar";
 
 function formulario_cadastro() {
+    const [nome, setnome] = useState('');
+    const [email, setemail] = useState('');
+    const [telefone, settelefone] = useState('');
+
     return (
         <form>
             <inputfield 
@@ -26,5 +30,3 @@ function formulario_cadastro() {
         </form>
     )
 }
-
-export default formulario_cadastro;
