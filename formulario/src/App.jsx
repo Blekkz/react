@@ -1,20 +1,19 @@
 function app () {
   return (
     <div>
-        <h1>ola Mundo</h1>
+        <h1>Formulario</h1>
     </div> 
   )
 }
 
-export default app
-
 function cabecalho () {
   return (
     <header>
-        <h1>ola Mundo</h1>
-        <p>bem vindo ao meu site</p>
+        <h1>Formulario</h1>
+        <p>isso é um disso</p>
     </header> 
   )
 }
 
 export default app
+

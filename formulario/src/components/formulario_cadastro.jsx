@@ -1,5 +1,5 @@
-import { useState } from "react";
 import inputfield from "./components/inputfield";
+import botaoenviar from "./components/botaoenviar";
 
 function formulario_cadastro() {
     const [nome, setnome] = useState('');
@@ -7,7 +7,7 @@ function formulario_cadastro() {
     const [telefone, settelefone] = useState('');
 
     return (
-        <form>
+                <form>
             <inputfield 
                 label="Nome"
                 type="text"

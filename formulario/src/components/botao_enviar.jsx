@@ -1,15 +1,7 @@
-function inputfield({label, type, name, placeholder, value, onChange}) {
+function botaoEnviar ({ text }) {
     return (
-        <div>
-            <label htmlFor={name}>{label}</label>
-            <input
-                type={type}
-                id={name}
-                name={name}
-                placeholder={placeholder}
-                value={value}
-                onChange={onChange}
-            />
-        </div>
+        <button type = {"submit"}>{text}</button>
     )
 }
+
+export default botaoEnviar;
